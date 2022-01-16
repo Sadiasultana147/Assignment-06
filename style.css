@@ -1,0 +1,42 @@
+body{
+    background-image:  url("images/photo-1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+    width: 100%;
+    height: 100%;
+   
+   
+}
+h1{
+    color:white;
+}
+
+.totalCount {
+    /* display: none; */
+    background-color: darkkhaki;
+    margin: 30px;
+    padding: 5px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-gap: 20px;
+    
+    
+    
+}
+
+.searchResult{
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px 5px gray;
+   color: white;
+   
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}

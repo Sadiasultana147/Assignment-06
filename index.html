@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Bootstrap link -->
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+      <!-- fontAwsome -->
+
+      <script src="https://kit.fontawesome.com/e3b518d69e.js" crossorigin="anonymous"></script>
+      <!-- Css link -->
+      <link rel="stylesheet" href="style.css">
+    <title>BookLibrary</title>
+</head>
+<body>
+    <h1 class="m-4 p-4 d-flex align-items-center justify-content-center">WELCOME TO BOOK WORLD</h1>
+
+    <!-- Search Field -->
+    <section class="m-4 p-4 d-flex align-items-center justify-content-center">
+       
+        <div class="row w-50 ">
+          <div class="col ">
+            <input  id="searchField" type="text" class="form-control" placeholder="Write Your Choice">
+          </div>
+          <button  onclick="searchBook()"  type="button" class="btn btn-success">
+            <i class="fas fa-search"></i> Serach 
+
+          </button>
+         
+        </div>
+     
+</section>
+<!-- Total List -->
+
+<section >
+    <h5 class="totalCount  d-flex align-items-center justify-content-center" id="search-total">Total Number of Search Result::
+
+    </h5>
+</section>
+
+<!-- Search Result -->
+<section  class="m-4 p-4 d-flex align-items-center justify-content-center ">
+    <div style="color: white;" id="searchResult" class="grid-container " >
+    
+        
+      </div>
+</section>
+    <script src="app.js"></script>
+    
+</body>
+</html>
